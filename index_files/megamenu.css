@@ -1,0 +1,40 @@
+.navbar-nav li:hover > ul.dropdown-menu {
+  display: block;
+  border: none !important;
+}
+.dropdown-submenu {
+  position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top:-25%;
+  left:20%;
+  margin-top:-6px;
+  width: 70%;
+}
+
+/* rotate caret on hover */
+.dropdown-menu > li > a:hover:after {
+  text-decoration: underline;
+  transform: rotate(-90deg);
+}
+
+.egt_menu_parent{
+  width: 1140px;
+}
+
+.egt_nietas{
+  left: 40% !important;
+}
+
+.nav-container,
+.nav-container-mobile {
+  position: relative;
+  z-index: 4;
+  width: 100%;
+  background: none; }
+
+.nav-container-mobile {
+  display: none; }
+
+.nav {
+  margin: 0 auto; }
